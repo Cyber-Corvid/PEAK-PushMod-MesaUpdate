@@ -8,7 +8,7 @@ repository = "https://thunderstore.io"
 namespace = "boxofbiscuits97"
 name = "PushMod"
 description = "Push your friends with the F key!"
-websiteUrl = "https://github.com/Boxofbiscuits97/PEAK-PushMod"
+websiteUrl = "https://github.com/Cyber-Corvid/PEAK-PushMod-MesaUpdate"
 containsNsfwContent = false
 
 [package.dependencies]
@@ -20,7 +20,7 @@ readme = "../../README.md"
 outdir = "../../artifacts/thunderstore/"
 
 [[build.copy]]
-source = "../../artifacts/bin/PushMod/release/com.github.boxofbiscuits97.PushMod.dll"
+source = "../../artifacts/bin/PushMod/release/com.github.CyberCorvid.PushMod.dll"
 target = "plugins/"
 
 [[build.copy]]
